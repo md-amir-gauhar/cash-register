@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cash Register</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2>Cash Register💲</h2>
+    </header>
+    <main class="container">
+      <label>Bill Amount:</label>
+      <input
+        type="number"
+        placeholder="Enter the amount (in 💲)"
+        id="bill-amount"
+      />
+      <button class="next-btn" id="next-btn">Next</button>
+      <label id="cash-label">Cash Given:</label>
+      <input
+        type="number"
+        placeholder="Enter the amount (in 💲)"
+        id="cash-amount"
+      />
+      <button id="calculate-btn">Calculate</button>
+
+      <p class="error" id="error-msg"></p>
+      <div class="change-return" id="change-return">
+        <div class="label">Return Change:</div>
+        <div id="output">
+          <table>
+            <tr>
+              <th>Note</th>
+              <td>2000</td>
+              <td>500</td>
+              <td>100</td>
+              <td>50</td>
+              <td>20</td>
+              <td>10</td>
+              <td>5</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <th>No. of notes</th>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
