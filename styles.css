@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Asset&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
-:root{
-  --dark-green : #064E3B;
-  --faint-green: #A7F3D0;
+:root {
+  --dark-green: #064e3b;
+  --faint-green: #a7f3d0;
 }
 
 * {
@@ -27,7 +27,8 @@ body {
 
 .header > h2 {
   font-size: 1.5rem;
-  font-family: 'Asset', cursive;
+  font-weight: 900 !important;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 .container {
@@ -111,4 +112,24 @@ table {
 th,
 td {
   word-wrap: break-word;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 68px;
+  width: 100%;
+  background-color: #85bb65;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.links {
+  margin-top: 10px;
+}
+
+.fab {
+  font-size: 1.5rem;
+  color: black;
+  margin: 0 10px;
 }
